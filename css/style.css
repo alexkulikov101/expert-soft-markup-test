@@ -267,3 +267,14 @@ img {
 .elements__icon {
   color: #000;
 }
+@media(max-width: 1200px){
+  .container{
+    width: auto;
+  }
+}
+@media(max-width: 662px){
+  .item{
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+}
