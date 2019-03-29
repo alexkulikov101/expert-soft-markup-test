@@ -189,7 +189,13 @@ img {
 }
 
 .item__caption {
+  width: 230px;
+  height: 25px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
   margin-bottom: 10px;
+
 }
 
 .price {
@@ -274,9 +280,24 @@ img {
 }
 
 .elements__btn {
+  width: 22px;
+  height: 22px;
   border: none;
   background: none;
   cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.elements__btn--eye {
+  background-image: url('../img/icons/001-view.png');
+}
+.elements__btn--heart {
+  background-image: url('../img/icons/002-like.png');
+}
+.elements__btn--balance {
+  background-image: url('../img/icons/003-balance.png');
 }
 
 .elements__icon {
