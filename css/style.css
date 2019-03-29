@@ -1,5 +1,17 @@
+@font-face {
+  font-family: Opensans;
+  src: url('../fonts/opensans.woff2') format('woff2'),
+    url('../fonts/opensans.woff') format('woff');
+}
+
+@font-face {
+  font-family: Montserratbold;
+  src: url('../fonts/montserratbold.woff2') format('woff2'),
+    url('../fonts/montserratbold.woff') format('woff');
+}
+
 body {
-  font-family: ;
+  font-family: Opensans, sans-serif;
   font-style: normal;
   font-size: 15px;
   line-height: 24px;
@@ -48,7 +60,7 @@ img {
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
 
@@ -97,6 +109,8 @@ img {
   height: 20px;
   color: #fff;
   background-color: #02a1f7;
+  font-family: Montserratbold, sans-serif;
+
 }
 
 .item:hover {
@@ -157,6 +171,7 @@ img {
 
 .price__new {
   color: #f94a52;
+  font-family: Montserratbold, sans-serif;
 }
 
 .price__old {
@@ -220,6 +235,7 @@ img {
   text-transform: uppercase;
   color: #fff;
   transition: all 0.5s;
+  font-family: Montserratbold, sans-serif;
 }
 
 .button:hover {
@@ -267,13 +283,15 @@ img {
 .elements__icon {
   color: #000;
 }
-@media(max-width: 1200px){
-  .container{
+
+@media(max-width: 1200px) {
+  .container {
     width: auto;
   }
 }
-@media(max-width: 662px){
-  .item{
+
+@media(max-width: 662px) {
+  .item {
     margin-right: 0px;
     margin-bottom: 30px;
   }
